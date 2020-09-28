@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+/*Global Style*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    transition: 0.3s;
+}
+/*Header Style*/
+div#logo {
+    display: inline-block;
+}
+
+div#nav {
+    display: inline-block;
+    float: right;
+}
+
+header {padding: 25px 0;}
+
+div#logo a h1 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div#nav nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+div#nav nav ul li a {
+    padding: 15px 16px;
+    color:#000;
+    position: relative;
+}
+div#nav nav ul li a:after {
+    height: 2px;
+    width: 0%;
+    background: #000;
+    content: "";
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+div#nav nav ul li a:hover:after {
+    width: 100%;
+}
+
+/*Hero Section*/
+.herosection {
+    padding: 150px 0;
+}
+
+.herosection .content h1 {
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-transform: capitalize;
+}
+
+.herosection .content p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
+
+.btn-cta {
+    background: #2c3e50;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 20px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.btn-cta:hover {
+    background: transparent;
+    color: #2c3e50;
+    border-color: #2c3e50;
+    box-shadow: 0px 0px 12px 1px #00000042;
+}
+a.btn.btn-cta:after {content: '\f30b';font-family: 'Font Awesome 5 Free';position: absolute;right: 11px;opacity: 0; top: 8px;}
+
+a.btn.btn-cta:hover {
+    padding-right: 38px;
+}
+
+a.btn.btn-cta:hover:after {
+    opacity: 1;
+}
+#mousemove {
+    position: absolute
+}
+#move{
+    position: relative
+}
+/**/
+#follower{
+    position : absolute;
+    height: 20px;
+    border: 1px solid #2c3e50;
+    background: transparent;
+    width: 20px;
+    border-radius: 100%;
+    top: -5px;
+
+}
