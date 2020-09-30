@@ -18,6 +18,7 @@ var loop = setInterval(function(){
 
 //Home Slider
 $(document).ready(function (){
+    //Owl
     $('.mainSlider').owlCarousel({
         loop:true,
         items:1,
@@ -25,4 +26,5 @@ $(document).ready(function (){
         autoplayTimeout:3000,
         slideBy:3
     });
+
 });
