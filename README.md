@@ -1,1 +1,1 @@
-# Tamplate Desing 😀
+# Tamplate Design 😀
